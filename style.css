@@ -30,6 +30,12 @@ body {
 }
 
 .top-desktop {
+  background-image: url(./images/bg-pattern-top-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 50vh;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -37,6 +43,13 @@ body {
 }
 
 .buttom-desktop {
+  background-image: url(./images/bg-pattern-bottom-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100vw;
+  height: 90vh;
+
   position: absolute;
   right: 0;
   bottom: 0;
@@ -185,6 +198,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
   .main {
     width: 90%;
   }
