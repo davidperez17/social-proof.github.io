@@ -25,6 +25,7 @@ body {
   font-family: "Spartan", sans-serif;
 }
 .main {
+  margin-top: 50px;
   width: 75%;
   height: auto;
 }
