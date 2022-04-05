@@ -5,12 +5,8 @@
   box-sizing: border-box;
 }
 :root {
-  /* ### Primary */
-
   --VeryDarkMagenta: hsl(300, 43%, 22%);
   --SoftPink: hsl(333, 80%, 67%);
-
-  /* ### Neutral */
 
   --DarkGrayishMagenta: hsl(303, 10%, 53%);
   --LightGrayishMagenta: hsl(300, 24%, 96%);
